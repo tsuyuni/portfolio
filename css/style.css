@@ -70,7 +70,7 @@ body {
 
  #top p {
  	position: absolute;
- 	color: #ddd;
+ 	color: #dddddd;
  	font-size: 4.4rem;
  	line-height: 6rem;
  }
@@ -88,7 +88,7 @@ body {
  	align-items: center;
  	width: 100%;
  	height: fit-content;
- 	background-color: black;
+ 	/*background-color: black;*/
  	padding: 4vw 0;
  }
 
@@ -141,13 +141,91 @@ body {
 	flex-direction: column;
 	align-items: center;
 	width: 80%;
+	font-family: "Noto Sans JP", sans-serif;
+	font-weight: 900;
 }
 
 .site-font h3, .site-color h3, .site-lang h3, .site-res h3 {
-	font-family: "Noto Sans JP", sans-serif;
 	font-size: 2rem;
-	font-weight: 900;
-	text-align: center;
+}
+
+.site-font {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+
+.font-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 84%;
+}
+
+.font-inner a {
+	font-size: 2rem;
+	color: #5d7ea3;
+}
+
+.font-inner a:nth-child(1) {
+	vertical-align: -1em;
+	font-family: "851Gkktt", sans-serif;
+}
+
+.site-color {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.color-inner {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+
+}
+
+.color-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.color-div span {
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: solid 1px white;
+	background-color: white;
+}
+
+.color-1 span {
+	background-color: #090e1f;
+}
+
+.color-2 span {
+	background-color: #192f60;
+}
+
+.color-3 span {
+	background-color: #5d7ea3;
+}
+
+.color-5 span {
+	background-color: #dddddd;
+}
+
+.lang-inner {
+	display: flex;
+	justify-content: center;
+}
+
+.lang-div img {
+	width: 200px;
 }
 
 

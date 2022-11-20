@@ -9,7 +9,7 @@ function setup(){
     canvas.parent("top");
     for (let i = 0; i < Math.round(windowWidth / 50); i++) {
     	positionX[i] = random(width)
-    	positionY[i] = random(-width, -50)
+    	positionY[i] = random(-height, -50)
     }
     noStroke();
 }
@@ -22,7 +22,7 @@ function draw(){
 		positionY[i] += 40;
 		if (positionY[i] > height) {
 			positionX[i] = random(width)
-			positionY[i] = random(-width, -50)
+			positionY[i] = random(-height, -50)
 		}
 	}
 	
