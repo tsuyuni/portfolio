@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "851Gkktt"; 
-	src: url("./fonts/851Gkktt.woff2") format("woff2"), url("./fonts/851Gkktt.woff") format("woff");
+	src: url("./fonts/851Gkktt.ttf") format("truetype");
 }
 
 * {
