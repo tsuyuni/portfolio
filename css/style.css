@@ -28,6 +28,7 @@ body {
 	background-color: black;
 	position: fixed;
 	z-index: 9999;
+	transition: all 1s;
 }
 
 #loading svg {
