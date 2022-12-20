@@ -37,6 +37,7 @@ body {
 
 #loading_circle {
 	filter: drop-shadow(0px 0px 3px #25BCFF) drop-shadow(0px 0px 8px #25BCFF) drop-shadow(0px 0px 15px #25BCFF);
+	transform: translateZ(0);
 	stroke-dasharray: 15.7;
 	animation: spin 2s ease reverse;
 	animation-iteration-count: infinite;
